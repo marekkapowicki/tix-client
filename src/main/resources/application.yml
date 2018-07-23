@@ -1,0 +1,7 @@
+feign:
+  url: http://localhost:9999
+  client:
+    config:
+      feignName:
+        encoder: feign.jackson.JacksonEncoder
+        decoder: feign.jackson.JacksonDecoder
